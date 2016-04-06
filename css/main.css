@@ -1,0 +1,416 @@
+
+  #logo{
+    width: 25%;
+
+  }
+.positioning{
+  float: left;
+  width: 23%;
+  text-align: center;
+}
+ul.nav li.icon {display: none;}
+.slogan{
+  margin-top: 25px;
+    width: 200px;
+}
+input[type="text"]{
+  margin-top: 2px;
+    height: 24px;
+    width: 201px;
+    padding-left: 10px;
+    1px solid #ccc
+}
+.contancts,.register-link{
+  margin-top: 17px;
+    width: 200px;
+}
+  .nav li {    
+    display: inline-block;  
+       /* padding: 15px 50px 15px 50px;*/
+    background-color: #0778BD;
+    margin-right: -5px;
+    border: 1px solid #0778BD;
+    border-right: 1px solid darkgray;
+        color: white;
+        border-left: 1px solid #fff;
+  border-right: 1px solid #ccc;
+  width: 13.6667%; /* fallback for non-calc() browsers */
+  width: calc(83% / 6);
+      padding: 9px 0;
+    text-align: center;
+}
+.columnsContainer { position: relative;height: 100%;width: 100%; }
+
+/*.leftColumn, .rightColumn {  border: 1px solid  #ccc; }*/
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 250px;
+    line-height: 33px;
+    text-align: center;
+    background: #767879;
+    padding: 0px !important;
+    z-index: 3;
+    position: absolute;
+    font-weight: 900;
+    color: rgb(193, 188, 188);
+    font-size: 20px;
+}
+
+.mainpic{
+  height: 468px;width: 100%;
+}
+.paddingDiv{
+  padding: 0px 84px;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+                margin-top: -17px;
+}
+.top-right {
+     
+      position: relative;
+      width: 100%;
+      padding-bottom: 20%;
+      height: 202px;
+    }
+    .top-rightInner {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+    }
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+.bottom-right{width: 25%;height: 202px;}
+.leftColumn { margin-bottom: .5em; }
+    .wrap {
+      overflow: hidden;
+      
+    }
+    .box {
+      float: left;
+      position: relative;
+      width: 20%;
+      padding-bottom: 20%;
+    }
+    .rightBox,.rightTopBox{
+      /*float: left;  padding-bottom: 20%;*/
+      position: relative;
+          
+      height: 49%;
+    }
+    .arrowOnCat{
+          margin-top: -30px;
+    width: 18%;
+    float: right;
+    }
+    .rightBox{
+          border: 7px solid #0e0e0e;
+      
+background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+    }
+    .rightTopBox{
+      border:7px solid #e93cec;
+  
+background: #fb83fa; /* Old browsers */
+background: -moz-linear-gradient(top,  #fb83fa 0%, #e93cec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fb83fa 0%,#e93cec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fb83fa 0%,#e93cec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=0 ); /* IE6-9 */
+
+          margin-top: 3%;
+    }
+
+    .boxInner {
+      position: absolute;
+      left: 10px;
+      right: 73px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+      border-right: 0px solid #ccc;
+    }
+
+    .rightBoxInner {
+      /*position: absolute;
+      left: 10px;*/
+      right: 73px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+      line-height: 10px;
+      color:white;
+      margin-left: 17px;
+    }
+
+    .boxInner img {
+      width: 100%;
+        margin-top: 39px;
+        margin-bottom: -8%;
+    }
+    .boxInner .titleBox {
+      position: absolute;
+      
+      left: 0;
+      right: 0;
+      margin-bottom: -50px;
+      
+      color: hsla(0, 0%, 50%, 0.58);
+     font-size: 15px;
+      text-align: center;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+      margin-bottom: 0;
+    }
+    .footer-distributed{
+  background-color: #0778BD;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 16px sans-serif;
+
+  padding: 16px 50px;
+  margin-top: 20px;
+}
+
+.footer-distributed .footer-left p{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+  color: gray;;
+    
+}
+
+.footer-distributed p.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  darkgray;
+}
+
+.footer-distributed .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-top: -15px;
+  margin-left: 3px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 19.5em;height: 470px;background-color: #5F748C;    position: relative; border: 2px transparent;}
+
+  .rightColumn{ position: absolute; top: 0; right: 0; width: 18.75em;height: 442px;} 
+   .circle{
+        display: none;
+      }  
+}
+@media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+   .box {
+        width: 100%;
+        padding-bottom: 100%;
+   }
+      .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    text-align: center;
+  }
+  .paddingDiv{
+  padding: 0px 84px;
+}
+
+  .footer-distributed .footer-right{
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .footer-distributed .footer-left p.footer-links{
+    line-height: 1.8;
+  }
+ 
+.mainpic{
+  height: 468px;width: 100%;
+}
+ .boxInner {
+         position: absolute;
+        /*left: 10px;*/
+        right: 73px;
+        top: 10px;
+        bottom: 10px;
+        overflow: hidden;
+        border-right: 0px solid #ccc;
+      }
+        .circle{
+        display: none;
+      }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+      .paddingDiv{
+  padding: 0px 84px;
+}
+ .circle{
+        display: none;
+      }
+.mainpic{
+  height: 468px;width: 100%;
+}
+ .boxInner {
+        border-right: 0px solid #ccc;
+      }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+      }
+       .circle{
+        display: none;
+      }
+.mainpic{
+  height: 468px;width: 100%;
+}
+ .boxInner {
+       position: absolute;
+      /*left: 10px;*/
+      right: 73px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+      border-right: 0px solid #ccc;
+      }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+.box {
+  width: 25%;
+  padding-bottom: 25%;
+}
+.circle{
+    display: none;
+}
+.paddingDiv{
+  padding: 0px 84px;
+}
+.mainpic{
+  height: 468px;width: 100%;
+}
+.boxInner {
+       position: absolute;
+      /*left: 10px;*/
+      right: 73px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+      border-right: 0px solid #ccc;
+}
+}
+
+ul.nav li.icon {display: none;}
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.nav li:not(:first-child) {display: none;}
+  ul.nav li.icon {
+    float: right;
+    display: inline-block;
+  }
+    .thelogo{
+    display: inline;
+        float: none;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.nav.responsive {position: relative;}
+  ul.nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .thelogo{
+    display: inline;
+        float: none;
+  }
+  .delivery{
+    float: none;
+    width: 100%;
+  }
+.telcategory,.innerDivTelC{
+  float: none !important;
+
+}
+.categoryForm{
+  float:none !important;
+}
+.positioning {
+width:100%;
+}
+.theP{
+  margin-left: 1px !important;
+}
+}
